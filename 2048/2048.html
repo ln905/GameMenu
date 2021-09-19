@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>2048</title>
+    <script src="index.js" charset="utf-8"></script>
+</head>
+<body>
+<div id="game-container">    
+        <div class="typewriter">
+            <h3>2048 </h3>                
+        </div> 
+    
+        <div id="button">
+            <button id="play">Play</button>
+    </div>
+
+    <div id="board">
+        <div class="grid"></div>
+    </div>
+</div>
+
+<div id="highscore-container">
+    <div class="score-container">
+        <div class="score-title">SCORE:</div>
+        <span id="score"> 0</span>
+    </div>  
+    
+    <div class="highscore-list">
+        <h3 id="highscore">High Score</h3>
+    </div>
+</div>
+
+<div class="modal-container" id="modal-container">
+    <div class="modal">
+        <h1 id="win-result"></h1>
+        <p id="score-result"></p>
+        <p id="click-to-restart">CLICK RESTART BUTTON TO REPLAY THE GAME</p>
+        <button id="restart">RESTART</button>
+    </div>
+</div>
+
+</body>
+</html>
